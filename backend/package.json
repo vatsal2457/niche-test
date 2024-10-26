@@ -1,0 +1,23 @@
+{
+  "name": "todo-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for a ToDo List application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {                                
+    "jest": "^29.0.0",
+    "supertest": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
